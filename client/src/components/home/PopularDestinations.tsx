@@ -7,28 +7,28 @@ const destinations = [
     name: "Rome",
     image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5",
     rating: 4.8,
-    price: "$799"
+    price: "₹79999"
   },
   {
     id: 2,
     name: "Paris",
     image: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34",
     rating: 4.9,
-    price: "$899"
+    price: "₹89999"
   },
   {
     id: 3,
     name: "London",
     image: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad",
     rating: 4.7,
-    price: "$749"
+    price: "₹74999"
   },
   {
     id: 4,
     name: "Barcelona",
     image: "https://images.unsplash.com/photo-1583422409516-2895a77efded",
     rating: 4.6,
-    price: "$699"
+    price: "₹69999"
   }
 ];
 

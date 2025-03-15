@@ -7,42 +7,42 @@ const destinations = [
     id: 1,
     name: "Big Ben, London",
     image: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad",
-    price: "$749",
+    price: "₹70000",
     duration: "7 days"
   },
   {
     id: 2,
     name: "Eiffel Tower, Paris",
     image: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34",
-    price: "$899",
+    price: "₹80000",
     duration: "5 days"
   },
   {
     id: 3,
     name: "Colosseum, Rome",
     image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5",
-    price: "$799",
+    price: "₹70000",
     duration: "6 days"
   },
   {
     id: 4,
     name: "Santorini, Greece",
     image: "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff",
-    price: "$999",
+    price: "₹90000",
     duration: "8 days"
   },
   {
     id: 5,
     name: "Amsterdam, Netherlands",
     image: "https://images.unsplash.com/photo-1534351590666-13e3e96b5017",
-    price: "$699",
+    price: "₹60000",
     duration: "5 days"
   },
   {
     id: 6,
     name: "Barcelona, Spain",
     image: "https://images.unsplash.com/photo-1583422409516-2895a77efded",
-    price: "$699",
+    price: "₹60000",
     duration: "6 days"
   }
 ];
