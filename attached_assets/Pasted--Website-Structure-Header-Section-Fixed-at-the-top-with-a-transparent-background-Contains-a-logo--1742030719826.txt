@@ -1,0 +1,52 @@
+ Website Structure
+Header Section:
+
+Fixed at the top with a transparent background.
+Contains a logo on the left and a navigation menu on the right.
+The navigation should collapse into a hamburger menu on smaller screens.
+Hero Section:
+
+Full-width banner with a background image.
+A centered heading with a call-to-action button.
+The text should be large and readable on all devices.
+Image Overlay Section:
+
+A split-screen layout on larger screens (lg:flex-row) and stacked on smaller screens (flex-col).
+One side should have text and a button, while the other side displays an overlayed image with an opacity effect.
+Featured Destinations Section:
+
+A grid layout displaying featured travel destinations.
+Circular images should be used for the destinations.
+The images should have a soft shadow and hover effect.
+Why Choose Us Section:
+
+A flexbox/grid layout with three or four key reasons for choosing the service.
+Icons should be used to enhance visual appeal.
+Each card should have a hover effect.
+Destination Cards Section:
+
+Grid layout showcasing various travel destinations.
+Each card should display an image, title, and brief description.
+On hover, the card should slightly scale up.
+Newsletter Section:
+
+A simple form with an email input and a submit button.
+Styled with a minimal, clean aesthetic.
+Footer Section:
+
+Contains links to social media, contact information, and quick links.
+A copyright notice at the bottom.
+🖥️ Responsive Design Guidelines
+Use flex-col for stacking on mobile screens and lg:flex-row for side-by-side layouts on larger screens.
+Implement fluid image scaling using object-cover and w-full h-auto.
+Apply consistent padding and margins (px-4 md:px-8 lg:px-16) to avoid content touching screen edges.
+Hide non-essential elements on smaller screens using hidden lg:block.
+Ensure the navigation bar collapses into a hamburger menu on mobile.
+Use hover effects (hover:scale-105 transition-transform) for interactive elements.
+🔗 Technologies to Use
+React + Vite for frontend development.
+Tailwind CSS for responsive styling.
+React Router for navigation.
+Framer Motion (optional) for animations.
+ShadCN UI (optional) for UI components.
+💡 Final Outcome: A modern, mobile-friendly travel website with a visually appealing UI that works perfectly across different screen sizes. 
