@@ -20,14 +20,13 @@ export default function Hero() {
             Travel, enjoy and live a new and full life
           </h1>
           <p className="text-lg md:text-xl mb-8 opacity-90">
-            Embark on unforgettable journeys to the world's most breathtaking destinations. 
-            Start your adventure today.
+          Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.
           </p>
           <Button 
             size="lg"
             className="bg-[#6EC1E4] hover:bg-[#2C6FBB] text-white transition-colors duration-300"
           >
-            Plan Your Trip
+            Find out more
           </Button>
         </motion.div>
       </div>

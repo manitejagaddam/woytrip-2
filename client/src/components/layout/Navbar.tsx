@@ -5,6 +5,8 @@ import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { cn } from "@/lib/utils";
 
+import logo from "../../assets/images/logo.png"
+
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -29,7 +31,11 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link href="/">
-            <a className="text-2xl font-bold text-primary">WhyTrip</a>
+            {/* <a className="text-2xl font-bold text-primary">WoyTrip</a> */}
+            <a>
+            <img src={logo} alt="logo" />
+
+            </a>
           </Link>
 
           {/* Desktop Menu */}

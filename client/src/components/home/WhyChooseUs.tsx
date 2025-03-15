@@ -4,18 +4,23 @@ import { Shield, Heart, Star } from "lucide-react";
 const features = [
   {
     icon: Shield,
-    title: "Safe Travel",
-    description: "Your safety is our top priority with trusted partners and 24/7 support"
+    title: "24/7 Doctor Support",
+    description: "Instant medical help for minor health issues."
   },
   {
     icon: Heart,
-    title: "Handpicked Experiences",
-    description: "Carefully curated experiences that showcase the best of each destination"
+    title: "Trip Vedio",
+    description: "Capture memories with a short trip highlight video."
   },
   {
     icon: Star,
-    title: "Best Price Guarantee",
-    description: "We offer competitive prices and match any lower price you find"
+    title: "Best Stay Guarantee",
+    description: "Handpicked stays for easy exploration."
+  },
+  {
+    icon: Star,
+    title: "Affordable Prices",
+    description: "Premium trips at budget-friendly rates."
   }
 ];
 
@@ -42,8 +47,7 @@ export default function WhyChooseUs() {
               Why Choose Us
             </h2>
             <p className="text-gray-600 mb-8">
-              We're committed to making your travel dreams come true with exceptional 
-              service and unforgettable experiences.
+            Enjoy different experiences in every place you visit and discover new and affordable adventures of course.
             </p>
 
             <div className="space-y-6">
